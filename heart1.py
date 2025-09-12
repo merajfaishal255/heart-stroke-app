@@ -39,4 +39,5 @@ if st.sidebar.button("Predict"):
     if prediction == 1:
         st.error("⚠️ High Risk of Stroke!")
     else:
+
         st.success("✅ Low Risk of Stroke")
